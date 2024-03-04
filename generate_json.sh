@@ -7,7 +7,7 @@ maintainer="Name (nickname)"
 oem="xiaomi"
 device="lancelot" 
 devicename="Redmi 9" 
-droidx="2.0"
+droidx_version="2.0"
 zip="droidx-2.0-20240225-1116-OFFICIAL-lancelot-Gapps.zip"
 forum=""
 gapps=""
@@ -34,7 +34,7 @@ echo '{
         "maintainer": "'$maintainer'",
         "oem": "'$oem'",
         "device": "'$devicename'",
-        "droidx": "'$droidx'",
+        "droidx-version": "'$droidx_version'",
         "filename": "'$zip_only'",
         "download": "https://sourceforge.net/projects/droidxui-releases/files/'$device'/'$v_max'.x/'$zip_only'/download",
         "timestamp": '$timestamp',
